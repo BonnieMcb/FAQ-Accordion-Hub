@@ -33,3 +33,7 @@ div.card {
 .pri-text {
     color: hsl(238, 29%, 16%);
 }
+
+button.question:hover {
+    color: hsl(14, 88%, 65%);
+}
