@@ -39,6 +39,12 @@ div.card {
     padding: 2rem;
 }
 
+div.question-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 button.question {
     border: none;
     font-family: 'Kumbh Sans', sans-serif;
@@ -50,6 +56,10 @@ button.question:hover {
     color: hsl(14, 88%, 65%);
 }
 
+button ~ i {
+    padding-right: 15px;
+    color: hsl(14, 88%, 65%);
+}
 hr {
     border-top: 1px solid hsl(240, 5%, 91%);
 }
