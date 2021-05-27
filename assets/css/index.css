@@ -25,9 +25,10 @@ div.card {
     bottom: 0;
     margin: 0 auto;
     height: 200px;
-    max-width: 75%;
+    width: 75%;
     border-radius: 15px;
     display: flex;
+    height: 50vh;
     }
 
 .pri-text {
@@ -60,6 +61,16 @@ button ~ i {
     padding-right: 15px;
     color: hsl(14, 88%, 65%);
 }
+
 hr {
     border-top: 1px solid hsl(240, 5%, 91%);
 }
+
+div.answer {
+    display: none;
+}
+
+/* .responsive-image {
+  max-width: 100%;
+  height: auto;
+} */
