@@ -44,13 +44,17 @@ div.question-line {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 
 button.question {
     border: none;
     font-family: 'Kumbh Sans', sans-serif;
     background: white;
-    padding: 1rem;
+    padding: 1rem 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 button.question:hover {
@@ -68,6 +72,10 @@ hr {
 
 div.answer {
     display: none;
+}
+
+div.answer-shown {
+    display: block;
 }
 
 /* .responsive-image {
