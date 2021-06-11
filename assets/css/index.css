@@ -34,10 +34,16 @@ div.card {
 .pri-text {
     color: hsl(238, 29%, 16%);
     font-family: 'Kumbh Sans', sans-serif;
+/* insert without proper testing because Sam woke up early */
+    position: relative;
+    left: -90px;
 }
 
 .container {
     padding: 2rem;
+    /* insert without proper testing because Sam woke up early */
+    position: relative;
+    left: -90px;
 }
 
 div.question-line {
@@ -45,6 +51,8 @@ div.question-line {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    /* insert without proper testing because Sam woke up early */
+    width: 350px;
 }
 
 button.question {
